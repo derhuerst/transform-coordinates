@@ -22,6 +22,8 @@
 		"node": ">=6"
 	},
 	"dependencies": {
+		"epsg-index": "^0.1.0",
+		"proj4": "^2.4.4"
 	},
 	"devDependencies": {
 		"tape": "^4.6.3",
