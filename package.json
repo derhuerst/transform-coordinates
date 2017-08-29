@@ -25,6 +25,9 @@
 		"epsg-index": "^0.2.1",
 		"proj4": "^2.4.4"
 	},
+	"devDependencies": {
+		"is-roughly-equal": "^0.1.0"
+	},
 	"scripts": {
 		"test": "node test.js",
 		"prepublishOnly": "npm test"
