@@ -1,5 +1,7 @@
 # transform-coordinates
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/derhuerst/transform-coordinates.svg)](https://greenkeeper.io/)
+
 **Transform coordinates from one [coordinate system](https://en.wikipedia.org/wiki/Geographic_coordinate_system) to another.** Thin layer around [`proj4`](https://github.com/proj4js/proj4js) and [`epsg-index`](https://github.com/derhuerst/epsg-index).
 
 [![npm version](https://img.shields.io/npm/v/transform-coordinates.svg)](https://www.npmjs.com/package/transform-coordinates)
