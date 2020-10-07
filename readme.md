@@ -1,11 +1,13 @@
 # transform-coordinates
 
-**Transform coordinates from one [coordinate system](https://en.wikipedia.org/wiki/Geographic_coordinate_system) to another.** Thin layer around [`proj4`](https://github.com/proj4js/proj4js) and [`epsg-index`](https://github.com/derhuerst/epsg-index).
+**Transform coordinates from one [coordinate system](https://en.wikipedia.org/wiki/Geographic_coordinate_system) to another.** Just a wrapper around [`proj4`](https://github.com/proj4js/proj4js) and [`epsg-index`](https://github.com/derhuerst/epsg-index).
 
 [![npm version](https://img.shields.io/npm/v/transform-coordinates.svg)](https://www.npmjs.com/package/transform-coordinates)
-[![build status](https://img.shields.io/travis/derhuerst/transform-coordinates.svg)](https://travis-ci.org/derhuerst/transform-coordinates)
+[![build status](https://api.travis-ci.org/derhuerst/transform-coordinates.svg?branch=master)](https://travis-ci.org/derhuerst/transform-coordinates)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/transform-coordinates.svg)
-[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+![minimum Node.js version](https://img.shields.io/node/v/transform-coordinates.svg)
+[![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
+[![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
 
 
 ## Installing
@@ -40,6 +42,13 @@ console.error(transform.forward({x: 13.4105, y: 52.5034}))
 ```
 
 `transformation(from, to)` returns a [`proj4` object with `forward()` and `inverse()`](https://github.com/proj4js/proj4js#using).
+
+
+## See also
+
+- [`projections`](https://github.com/juliuste/projections) – Collection of (stereographic) map/coordinate projections.
+- [`proj4`](https://github.com/proj4js/proj4js) – library to transform coordinates from one coordinate system to another
+- [`epsg-index`](https://github.com/derhuerst/epsg-index) – A machine-readable index of all EPSG coordinate systems.
 
 
 ## Contributing

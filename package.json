@@ -1,17 +1,19 @@
 {
 	"name": "transform-coordinates",
 	"description": "Transform coordinates from one coordinate system to another.",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"main": "index.js",
 	"files": [
-		"index.js"
+		"index.js",
+		"example.js"
 	],
 	"keywords": [
 		"epsg",
 		"gis",
 		"geospatial",
 		"transform",
-		"coordinates"
+		"coordinates",
+		"proj4"
 	],
 	"author": "Jannis R <mail@jannisr.de>",
 	"homepage": "https://github.com/derhuerst/transform-coordinates",
