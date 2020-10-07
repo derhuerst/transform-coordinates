@@ -19,10 +19,10 @@
 	"bugs": "https://github.com/derhuerst/transform-coordinates/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=6"
+		"node": ">=12"
 	},
 	"dependencies": {
-		"epsg-index": "^0.2.1",
+		"epsg-index": "^1.0.0",
 		"proj4": "^2.4.4"
 	},
 	"devDependencies": {
